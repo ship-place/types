@@ -1,7 +1,7 @@
-import { Permission } from "../enums";
+import { Permission } from '../enums';
 
 export interface IRole {
-  id:number;
+  id: number;
   name: string;
   permissions: Permission[];
 }

@@ -1,0 +1,34 @@
+{
+  "name": "@ship-place/types",
+  "version": "0.0.1",
+  "description": "Types for Ship.Place",
+  "scripts": {
+    "test": "exit 0",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "eslint . --ext .ts",
+    "prepare": "exit 0",
+    "prepublishOnly": "npm run test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A backend frontend common",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ship-place/types.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ship-place/types/issues"
+  },
+  "homepage": "https://github.com/ship-place/types#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "@typescript-eslint/parser": "^5.52.0",
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-no-loops": "^0.3.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4"
+  }
+}

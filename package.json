@@ -4,7 +4,7 @@
   "description": "Types for Ship.Place",
   "scripts": {
     "test": "exit 0",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "format": "prettier --write \"backend/**/*.ts\" \"frontend/**/*.ts\" \"common/**/*.ts\"",
     "lint": "eslint . --ext .ts",
     "prepare": "exit 0",
     "prepublishOnly": "npm run test && npm run lint",

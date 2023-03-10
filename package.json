@@ -8,7 +8,6 @@
     "lint": "eslint . --ext .ts",
     "prepare": "exit 0",
     "prepublishOnly": "npm run test && npm run lint",
-    "preversion": "npm run lint",
     "version": "npm run format && git add -A backend frontend common",
     "postversion": "git push && git push --tags"
   },

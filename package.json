@@ -1,6 +1,6 @@
 {
   "name": "@ship-place/types",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Types for Ship.Place",
   "scripts": {
     "test": "exit 0",

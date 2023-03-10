@@ -1,4 +1,4 @@
-import { Pattern } from '@ship-place/ms-client-module/src/@types/pattern.type';
+import { Pattern } from '../../backend';
 
 export const MsChangesMessagePatterns: Pattern = {
   ping: 'changes.ping',

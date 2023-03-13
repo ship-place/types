@@ -1,4 +1,4 @@
-import { Permission } from 'src/common/@types/enums';
+import { Permission } from '../../common';
 
 export type JwtPayload = {
   email: string;
